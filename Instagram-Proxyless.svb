@@ -87,14 +87,14 @@ REQUEST GET "<url>"
 
 BROWSERACTION Open 
 
-#LOGIN REQUEST POST "https://auth.instagram.com/front/authenticate" 
-  CONTENT "username=<USER>&password=<PASS>&token=<TOKEN>&redirect=&from=pc_premium_login&segment=straight" 
+#LOGIN REQUEST POST "https://api.instagram.com/front/authenticate" 
+  CONTENT "username=<USER>&password=<PASS>&token=<TOKEN>&redirect=&from=ios_premium_login&segment=straight" 
   CONTENTTYPE "application/x-www-form-urlencoded" 
   HEADER "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" 
   HEADER "Pragma: no-cache" 
   HEADER "Accept: */*" 
   HEADER "Origin: https://api.instagram.com" 
-  HEADER "Referer: https://auth.instagram.com/front/login" 
+  HEADER "Referer: https://api.instagram.com/front/auth/login" 
   HEADER "Sec-Fetch-Mode: cors" 
   HEADER "Sec-Fetch-Site: same-origin" 
   HEADER "X-Requested-With: XMLHttpRequest" 
